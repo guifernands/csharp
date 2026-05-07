@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pnb/csharp-projeto-musical/csharp-projeto-musical.csproj",
+      "projectUniqueName": "/home/pnb/csharp/alura/csharp-projeto-musical/csharp-projeto-musical.csproj",
       "projectName": "csharp-projeto-musical",
-      "projectPath": "/home/pnb/csharp-projeto-musical/csharp-projeto-musical.csproj",
+      "projectPath": "/home/pnb/csharp/alura/csharp-projeto-musical/csharp-projeto-musical.csproj",
       "packagesPath": "/home/pnb/.nuget/packages/",
-      "outputPath": "/home/pnb/csharp-projeto-musical/obj/",
+      "outputPath": "/home/pnb/csharp/alura/csharp-projeto-musical/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/pnb/.nuget/NuGet/NuGet.Config"
