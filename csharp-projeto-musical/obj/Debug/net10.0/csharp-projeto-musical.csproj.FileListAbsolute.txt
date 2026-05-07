@@ -1,0 +1,14 @@
+/home/pnb/csharp-projeto-musical/bin/Debug/net10.0/csharp-projeto-musical
+/home/pnb/csharp-projeto-musical/bin/Debug/net10.0/csharp-projeto-musical.deps.json
+/home/pnb/csharp-projeto-musical/bin/Debug/net10.0/csharp-projeto-musical.runtimeconfig.json
+/home/pnb/csharp-projeto-musical/bin/Debug/net10.0/csharp-projeto-musical.dll
+/home/pnb/csharp-projeto-musical/bin/Debug/net10.0/csharp-projeto-musical.pdb
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.GeneratedMSBuildEditorConfig.editorconfig
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.AssemblyInfoInputs.cache
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.AssemblyInfo.cs
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.csproj.CoreCompileInputs.cache
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.dll
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/refint/csharp-projeto-musical.dll
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.pdb
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/csharp-projeto-musical.genruntimeconfig.cache
+/home/pnb/csharp-projeto-musical/obj/Debug/net10.0/ref/csharp-projeto-musical.dll
