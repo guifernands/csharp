@@ -1,26 +1,31 @@
-﻿Album albumLifetime = new Album();
-albumLifetime.Nome = "Lifetime";
+﻿Banda linkinpark = new Banda();
+linkinpark.Nome = "Linkin Park";
 
-Musica musica1 = new Musica();
-musica1.Nome = "Seasons";
-musica1.Duracao = 129;
+Album albumLIVINGTHINGS = new Album();
+albumLIVINGTHINGS.Nome = "LIVING THINGS";
 
-Musica musica2 = new Musica();
-musica2.Nome = "The Chase";
-musica2.Duracao = 142;
+Musica musica1 = new Musica(linkinpark);
+musica1.Nome = "LOST IN THE ECHO";
+musica1.Duracao = 185;
 
-Musica musica3 = new Musica();
-musica3.Nome = "The Garden";
-musica3.Duracao = 182;
+Musica musica2 = new Musica(linkinpark);
+musica2.Nome = "ROADS UNTRAVELED";
+musica2.Duracao = 230;
 
-Musica musica4 = new Musica();
-musica4.Nome = "Lifetime";
-musica4.Duracao = 184;
+Musica musica3 = new Musica(linkinpark);
+musica3.Nome = "CASTLE OF GLASS";
+musica3.Duracao = 205;
+
+Musica musica4 = new Musica(linkinpark);
+musica4.Nome = "BURN IT DOWN";
+musica4.Duracao = 230;
 
 
-albumLifetime.AdicionarMusica(musica1);
-albumLifetime.AdicionarMusica(musica2);
-albumLifetime.AdicionarMusica(musica3);
-albumLifetime.AdicionarMusica(musica4);
+albumLIVINGTHINGS.AdicionarMusica(musica1);
+albumLIVINGTHINGS.AdicionarMusica(musica2);
+albumLIVINGTHINGS.AdicionarMusica(musica3);
+albumLIVINGTHINGS.AdicionarMusica(musica4);
 
-albumLifetime.ExibirAlbum();
+
+linkinpark.AdicionarAlbum(albumLIVINGTHINGS);
+linkinpark.ExibirDiscografia();

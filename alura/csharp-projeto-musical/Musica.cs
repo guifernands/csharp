@@ -2,8 +2,12 @@ using System.Dynamic;
 
 class Musica
 {
+    public Musica(Banda artista)
+    {
+        Artista = artista;
+    }
     public string Nome { get; set; } = string.Empty; /* operaçao de leitura (get) e escrita (set) */
-    public string Artista { get; set; } = string.Empty;
+    public Banda Artista { get; } 
     public int Duracao { get; set; }
     public bool Disponivel { get; set; } /* propriedades usam PascalCase */
 
