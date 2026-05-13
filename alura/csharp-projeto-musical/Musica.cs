@@ -2,11 +2,13 @@ using System.Dynamic;
 
 class Musica
 {
-    public Musica(Banda artista)
+    public Musica(Banda artista, string nome)
     {
         Artista = artista;
+        Nome = nome;
     }
-    public string Nome { get; set; } = string.Empty; /* operaçao de leitura (get) e escrita (set) */
+
+    public string Nome { get; } /* operaçao de leitura (get) e escrita (set) */
     public Banda Artista { get; } 
     public int Duracao { get; set; }
     public bool Disponivel { get; set; } /* propriedades usam PascalCase */
@@ -24,7 +26,7 @@ class Musica
 
     /* arrow function / lambda */
     public string DescricaoResumida => 
-        $"A música {Nome} pertence à {Artista}.";
+        $"A música {Nome} pertence à {Artista.Nome}.";
 
     public void EscreveDisponivel(bool value)
     {
@@ -34,7 +36,7 @@ class Musica
     public void ExibirFichaTecnica()
     {   
         Console.WriteLine($"Nome: {Nome}");
-        Console.WriteLine($"Artista: {Artista}");
+        Console.WriteLine($"Artista: {Artista.Nome}");
         Console.WriteLine($"Duração: {Duracao}");
         Console.WriteLine($"Descrição: {DescricaoResumida}");
         if (Disponivel)
