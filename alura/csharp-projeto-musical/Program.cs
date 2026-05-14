@@ -1,4 +1,4 @@
-﻿Banda linkinpark = new Banda("Linkin Park");
+﻿/* Banda linkinpark = new Banda("Linkin Park");
 
 Album albumLIVINGTHINGS = new Album("LIVING THINGS");
 
@@ -28,4 +28,8 @@ musica1.ExibirFichaTecnica();
 musica2.ExibirFichaTecnica();
 musica3.ExibirFichaTecnica();
 linkinpark.AdicionarAlbum(albumLIVINGTHINGS);
-linkinpark.ExibirDiscografia();
+linkinpark.ExibirDiscografia(); */
+
+Episodio CancelamentoDeSchrondinger = new(1, "Cancelamento De Schrondinger", 60);
+CancelamentoDeSchrondinger.AdicionarConvidados("Marcelo com undeline mudo");
+Console.WriteLine(CancelamentoDeSchrondinger.Resumo);

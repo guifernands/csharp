@@ -1,17 +1,18 @@
 class Podcast
 {
-    string Nome { get; set; }
-    string Host { get; set; }
-    int TotalEpisodios { get; set; }
-
-    public Podcast (string nome, string host)
+    private List<string> episodios = new();
+    public Podcast(string nome, string host)
     {
         Nome = nome;
         Host = host;
     }
+    public string Nome { get; }
+    public string Host { get; }
 
-    public void ExibirDetalhes()
+    public int TotalEpisodios { get; set; }
+
+    public void AdicionarEpisodio(Episodio episodio)
     {
-        Console.WriteLine($"Nome: {Nome} \nHost: {Host} \nTotal de episódios: {TotalEpisodios}");
+        episodios.Add(episodio);
     }
 }
